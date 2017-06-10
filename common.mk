@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/common/cm-common.mk
+include device/sony/common-aosp/cm-common.mk
 
 # Common path
-COMMON_PATH := device/sony/common
+COMMON_PATH := device/sony/common-aosp
 
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
